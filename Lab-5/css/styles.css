@@ -1,0 +1,29 @@
+.id-class {
+    background-color: cornflowerblue;
+    color: #c7c7c7;
+}
+
+.selector-class {
+    background-color: black;
+    color: red;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.image img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
