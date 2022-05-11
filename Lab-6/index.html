@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+<form>
+    <p>
+        <label for="name">ПІБ</label>
+        <input type="text" id="name" required pattern="^([A-Z]|[А-ЩЬЮЯҐЄІЇ])+( ([A-Z]|[А-ЩЬЮЯҐЄІЇ]{1})(.))+(([A-Z]|[А-ЩЬЮЯҐЄІЇ]){1}(.))$">
+    </p>
+    <p>
+        <label for="faculty">Факультет</label>
+        <input type="text" id="faculty" required pattern="^([A-Z]|[А-ЩЬЮЯҐЄІЇ]){4}$">
+    </p>
+    <p>
+        <label for="birthday">Дата народження</label>
+        <input type="text" id="birthday" required pattern="^([0-9]{2}(.))+([0-9]{2}(.))+([0-9]{4})$">
+    </p>
+    <p>
+        <label for="address">Адреса</label>
+        <input type="text" id="address" required pattern="^м\.( [А-ЩЬЮЯҐЄІЇ]{1,20})$">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="text" id="email" required pattern="^([a-z]{3,50})@([a-z]{3,20})\.com$">
+    </p>
+
+    <button type="submit">Відправити</button>
+</form>
+
+<table border="1px" width="800px">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td id="cell" style="padding: 0; position: relative">
+            <input type="color" id="color-picker" name="head" style="visibility: hidden; position: absolute;">
+            <label for="color-picker" style="display: block; padding: 16px;">10</label>
+        </td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+    </tr>
+</table> 
+
+<script src="js/script.js"></script>
+</body>
+</html>

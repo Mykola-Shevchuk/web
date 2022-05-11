@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 50px;
+}
+
+form p {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    padding: 16px;
+}
